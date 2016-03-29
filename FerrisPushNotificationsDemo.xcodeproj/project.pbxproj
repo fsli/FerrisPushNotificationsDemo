@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					6F3225B91CA5266D000874E4 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = XY597Q25W5;
+						DevelopmentTeam = 498M86958U;
 					};
 				};
 			};
@@ -253,10 +253,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FerrisPushNotificationsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = notifications.demo.ferris.li;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moteve.dosuekoma3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -265,10 +267,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FerrisPushNotificationsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = notifications.demo.ferris.li;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moteve.dosuekoma3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
