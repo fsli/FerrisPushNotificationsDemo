@@ -50,7 +50,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application:UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
         print("application:didRegisterForRemoteNotificationsWithDeviceToken: \(deviceToken)");
-    
+        let strDeviceToken = "\(deviceToken)"
+        NSNotificationCenter.defaultCenter().postNotificationName("deviceTokenLoadedNotification", object: strDeviceToken)
+       
     
     // Register the device token with a webservice
     }
